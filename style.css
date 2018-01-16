@@ -1,0 +1,28 @@
+.posts label{
+    cursor:pointer;
+    background-color: #fff;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.posts  input{
+    display: none;
+}
+.posts  input:checked+label{
+    background-color: #5bc98a;
+}
+.posts  input[id="tab_1"]:checked div>.tab_1,
+.posts  input[id="tab_2"]:checked div>.tab_2{
+    display: block;
+}
+.posts article{
+    display: none;
+    background: #fff;
+    padding:10px 0;
+}
+
+.posts{
+    width: 400px;
+}
+article{
+    width: 200px;
+}
